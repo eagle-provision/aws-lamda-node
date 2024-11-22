@@ -6,6 +6,7 @@ deploying. It logs with Bunyan, and has a simple async waterfall in it's
 `index.js` to give you one approachin handling flow control in a Lambda
 function.
 
+
 ### Basic
 
 1. `npm i -g aws-sdk` to install AWS SDK if you haven't already.
@@ -23,6 +24,7 @@ function.
    editing `index.js` to whatever you want. You can mock data in `event.json`.
    Look at `deploy.env.example` if you want to send along secret variables
    (change name to `deploy.env`) that don't go to git.
+   
 
 ### Advanced
 
